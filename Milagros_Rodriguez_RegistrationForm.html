@@ -1,0 +1,24 @@
+<html>
+<head>
+	<meta charset = "UTF-8"> 
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/stylesheet.css') }}">
+	<title>Registration form CD</title>
+</head>
+<body>
+<div class="container">
+	<h1>register Form</h1>
+
+ 	<form action=/form method="POST">
+
+	 	E-mail:<input type="text" name= "e-mail">
+	 	First Name:<input type="text" name= "first_name">
+	 	Last Name:<input type="text" name= "last_name">
+	 	Password:<input type="text" name= "password">
+	 	Confirm Password:<input type="text" name= "pwordconfirm">
+
+	 	<input type='submit' name='submit' value='Register'>
+	</form>
+</div>
+
+</body>
+</html>
